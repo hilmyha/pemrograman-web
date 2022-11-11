@@ -1,0 +1,65 @@
+
+/* selector type */
+h1{
+  color: red;
+}
+
+/* selector class */
+.biru{
+  color: blue;
+}
+.hijau{
+  color: green;
+}
+
+.bgbiru{
+  background-color: blue;
+}
+.bghijau{
+  background-color: green;
+}
+.bgorange{
+  background-color: orange;
+}
+.bgpink{
+  background-color: pink;
+}
+.bgred{
+  background-color: red;
+}
+
+
+
+/* selector pseudoclass */
+a{
+  color: green;
+}
+a:hover{
+  color: magenta;
+}
+
+/* start kotak */
+.box1{
+  color: white;
+  background-color: rgba(0,0,0,1);
+  padding: 24px;
+  margin: 10px;
+  width: 100px;
+}
+.box2{
+  color: black;
+  background-color: gray;
+  padding: 24px;
+  margin: 10px;
+  width: 200px;
+}
+/* end kotak */
+
+/* start paragraph */
+.paragraph-poppins{
+  font-family: poppins, sans-serif;
+}
+.paragraph-times{
+  font-family: Georgia, "Times New Roman", serif;
+}
+/* end paragraph */

@@ -1,0 +1,79 @@
+
+
+
+/* layout 1 */
+.nav-1,
+.footer-1,
+.left-1,
+.center-1,
+.right-1 {
+  padding: 10px;
+}
+.main-1{
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+}
+
+.left-1,
+.center-1,
+.right-1{
+  float: left;
+}
+
+.left-1{
+  width: 29%;
+}
+.center-1{
+  margin: 0 10px 0 10px;
+  width: 29%;
+}
+.right-1{
+  width: 29%;
+}
+
+
+
+/* layout 2 */
+.nav-2,
+.footer-2,
+.left-2,
+.center-2,
+.right-2 {
+  padding: 10px;
+}
+
+.main-2{
+  margin: 10px 0;
+  display: flex;
+}
+
+.left-2,
+.center-2,
+.right-2 {
+  flex-basis: 100%;
+}
+
+.center-2{
+  margin: 0 10px;
+}
+
+
+/* layout 3 */
+.nav-3,
+.footer-3,
+.left-3,
+.center-3,
+.right-3 {
+  padding: 10px;
+}
+
+.main-3{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 100%;
+  margin: 10px 0;
+}
+
+.center-3{
+  margin: 0 10px
+}
